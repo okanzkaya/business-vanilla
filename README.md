@@ -1,4 +1,4 @@
-# simple Business Webpage With Plain CSS3 and HTML5
+# Simple Business Webpage With Plain CSS3 and HTML5
 
 [screen-capture.webm](https://user-images.githubusercontent.com/97271658/176696944-a092a1b1-7e3c-49f2-91ba-9ec07cc07ece.webm)
 
