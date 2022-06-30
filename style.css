@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ /*  background-color: #ffdb4e; f7d13a */
+ font-size: 17px;
+ background-color: #f7d13a;
+ }
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: ffdb4e;
+}
+
+.navigation-bar:hover{
+  background-color: white;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.navigation-bar *{
+  column-gap: 45px;
+}
+
+.navigation-bar .menu {
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+}
+
+.navigation-bar .pricing {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.logo {
+  display: flex;
+  max-height: 130px;
+  padding: 20px;
+  padding-left: 230px;
+}
+
+.logo img{
+  width: 100px;
+  filter: drop-shadow(30px 10px 4px #010a084f);
+}
+
+.navigation-bar .menu a  {
+  --b: 0.1em;   /* the thickness of the line */
+  --c: #1095c1; /* the color */
+  
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+
+.navigation-bar .pricing a  {
+  --b: 0.1em;   /* the thickness of the line */
+  --c: #1095c1; /* the color */
+  
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+
+.navigation-bar .menu a:hover {
+  --_p: 100%; 
+  --_s: .3s;
+}
+
+.navigation-bar .pricing a:hover {
+  --_p: 100%; 
+  --_s: .3s;
+}
+
+.body-grid-container {
+  display: grid;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 120px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.body-grid-item {
+  font-size: 30px;
+  text-align: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.body-grid-item h1{
+  padding-top: 50px;
+  margin-right: 100px;
+  margin-top: 100px;
+  font-size: 38px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.body-grid-item h2{
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+
+.body-grid-item img{
+  width: 100%;
+}
+
+.join-btns *{
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  padding: 20px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 45px;
+  color: #6551db;
+  border-radius:20px; 
+}
+
+.join-btns #sign-up-btn{
+  background-color: #a8a2ca;
+  color: white;
+}
+
+.join-btns #sign-up-btn:hover{
+  background-color:#1b86eb !important;
+  transition: 0.7s;
+}
+
+.join-btns #get-offer-btn{
+  font-size: 22px;
+}
+
+.join-btns #get-offer-btn:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.lower-body-flexbox{
+  margin-top: 30px;
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.lower-body-flexbox h1{
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.lower-body-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 25px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.lower-body-grid-item h1 {
+  margin-top: 40px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.lower-body-grid-item h2 {
+  padding-top: 35px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: left;
+}
+
+.lower-body-grid-item {
+  margin: 50px;
+
+}
+
+.lower-body-grid-item img{
+  width: 100%;
+
+}
+
+#sell-more-btn{
+  font-family: 'Courier New', Courier, monospace;
+  border-style: solid;
+  padding: 20px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 45px;
+  color: #000000;
+  border-radius:20px; 
+  background-color: #ffffff;
+}
+
+#sell-more-btn:hover{
+  background-color:#1b86eb !important;
+  transition: 0.7s;
+}
+
+.references-flexbox {
+  display: flex;
+  background-color: #f7d13a;
+  flex-wrap: wrap;
+} 
+
+.references-flexbox h1 {
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.references-flexbox h2 {
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.references-flexbox * {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.references-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 40px;
+}
+
+.reference {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.references-grid img{
+  object-fit: cover;
+  width: 100%;
+  max-width: 200px;
+}
+
+.reference p {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+}
+.footer-col{
+   width: 25%;
+   padding: 50px 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: rgb(201, 164, 164);
+  text-align: center;
+}
