@@ -5,7 +5,7 @@
 
 I have created this website for simple design, I only used plain HTML5 and CSS3 languages.
 
-JS or external libraries have not used, I was trying to design something new.
+JS or external libraries have not used, I was trying to design something new and basic.
 
 Design is not responsive, you can tweak it to make it responsive.
 
